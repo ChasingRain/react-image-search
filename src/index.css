@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ .banner {
+  text-align: center;
+  background-image: url("./components/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.banner-image{
+  background: black;
+}
+
+.banner-form {
+  color: white;
+  border: 2px solid rgb(35, 158, 1);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 30%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-form {
+        max-width: 70%;
+    }
+    .navbar form {
+      display: none;
+    }
+}
+
+.presets button {
+  background: darkgrey;
+  color: white
+}
+
+.active button{
+  background: black;
+}
+
+h1:first-letter {
+    text-transform:capitalize;
+}
+
+.search-title {
+  padding: 0 40px;
+  text-decoration: underline;
+}
+
+.nav {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.image {
+  float: left;
+  padding: 4px;
+  border-radius: 30px;
+}
+
+.image-box {
+  position: relative;
+  padding: 0 0 0 0;
+}
+
+.image-text {
+  width: 145px;
+  text-align: center;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+.textblock {
+  opacity: 0;
+  float: none;
+  position: absolute;
+  bottom: 20%;
+  right: 10;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  padding-left: 2px;
+  padding-right: 2px;
+  height:
+}
+
+.image:hover .textblock{
+    opacity: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.align-right {
+  float: right;
+}
+
+.not-found {
+  text-align: center;
+}
+
+button {
+  margin: 10px
+}
