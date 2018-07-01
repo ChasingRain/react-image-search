@@ -1,3 +1,8 @@
+Make sure to add a config.js file to the src folder. Should export apiKey.
+example:
+const apiKey = 'YOUR FLICKR API KEY';
+export default apiKey;
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
